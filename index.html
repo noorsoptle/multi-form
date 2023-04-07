@@ -16,10 +16,7 @@
   <link href="./index.css" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Sidebar start -->
   <div class="container">
-    Hi
   <div class="sidebar">
     <ul class="steps step-one ">
       <li class="step1 all-steps">
@@ -52,6 +49,35 @@
       </li>
     </ul>
   </div>
+  <div class="step-one-container ">
+    <div class="header-section">
+    <h1 class="title">Personal info</h1>
+    <p class="info-p">  Please provide your name, email address, and phone number.</p>
+    </div>
+  <form  class="input-container">
+    <div class="input-content">
+      <div class="label-container">
+      <label for="name">Name</label>
+      </div>
+        <input type="text" name="fullname" value="" placeholder="e.g. Stephen King" class="inputs" required  id="name">
+    </div>
+    <div class="input-content">
+      <div class="label-container">
+      <label for="email">Email Address</label>
+    </div>
+      <input type="email" placeholder="e.g. stephenking@lorem.com" name="email" class="inputs" required  id="email">
+    </div>
+    <div class="input-content">
+      <div class="label-container">
+      <label for="phone">Phone Number</label>
+      </div>
+      <input type="tel" name="phoneNum" placeholder="e.g. +1 234 567 890" class="inputs" required id="phone">
+    </div>
+  </form>
+  <div class="btns">
+    <button class="next-step" >Next Step</button>
+  </div>
+</div> 
   </div>
 
 
